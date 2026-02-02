@@ -46,6 +46,17 @@ video {
 		gap: 1rem;
 		margin: 1rem auto;
 		align-items: center;
+	
+		/* .transparent {
+			position: relative;
+			
+			.dot {
+				color: red;
+				position: absolute;
+				top: 2px;
+			}
+		} */
+	
 	}
 	
 	i {
@@ -89,6 +100,21 @@ footer {
 
 .i-footer i {
 	font-size: 1.5rem;
+}
+
+.messages {
+
+	position: relative;
+
+	.new-messages {
+		position: absolute;
+		background-color: red;
+		border-radius: 16px;
+		font-size: 0.7rem;
+		padding: 0 4px;
+		top: 1px;
+		right: 1rem;
+	}
 }
 
 .i-footer .text-footer {
