@@ -103,7 +103,6 @@ footer {
 }
 
 .messages {
-
 	position: relative;
 
 	.new-messages {
@@ -174,7 +173,6 @@ footer {
 		bottom: 1px;
 		transform: translateY(50%)
 	}
-	
 }
 
 .item {
